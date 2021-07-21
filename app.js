@@ -1,9 +1,30 @@
-var billInput = document.querySelector("#billAmount");
-var cashInput = document.querySelector("#cashAmount");
-var result =document.querySelector("#test");
-var btnCheck=document.querySelector("#check")
+var bA=document.querySelector("#billAmount");
+var cA=document.querySelector("#cashAmount");
 
-var bill=billInput.value;
-var cash=cashInput.value;
+function clickNext(){
+    var bill=bA.value;
+    
+    return bill;
+}
+
+function clickSubmit(){
+    var billAmt=clickNext();
+    var cash=cA.value;
+    
+
+    var diff= cash-billAmt;
+    console.log(diff);
+
+    if(diff>0){
+        
+    }
+    else if(diff==0){
+
+    }
+    else{
+
+    }
+
+}
 
 

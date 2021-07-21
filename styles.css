@@ -26,3 +26,7 @@ button{
     margin: auto;
 
 }
+th{
+    min-width: 5rem;
+    height: 2rem;
+}
