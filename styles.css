@@ -12,14 +12,15 @@ input{
     height: 2rem;
 }
 table{
+    
     border: 2px solid;
-    width: 30rem;
     margin: 2rem auto 3rem auto;
-    height: 5rem;
+    
 }
 
 tr,th{
     border: 1px solid;
+    
 }
 button{
     display: block;
@@ -29,4 +30,9 @@ button{
 th{
     min-width: 5rem;
     height: 2rem;
+}
+
+.output{
+    text-align: center;
+    margin-top: 1rem;
 }
