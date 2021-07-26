@@ -10,13 +10,13 @@
 </head>
 <body>
     <h1>Cash Register</h1>
-    <div>
-        <input type="number" id="billAmount">
-        <button onclick="clickNext()"> next</button>
+    <div id="one">
+        <input type="number" id="billAmount" min="1">
+        <button class="btn" onclick="clickNext()"> Next</button>
     </div>
-    <div>
-        <input type="number" id="cashAmount">
-        <button onclick="clickSubmit()">submit</button>
+    <div id="two">
+        <input type="number" id="cashAmount" min="0">
+        <button class="btn" onclick="clickSubmit()">Submit</button>
     </div>    
     
         
