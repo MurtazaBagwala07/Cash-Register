@@ -7,6 +7,16 @@ h1{
     color: #326273;
     font-size: 3rem;
 }
+
+
+.billDiv{
+    display: block;
+}
+
+.cashDiv{
+    display: none;
+}
+
 input{
     display: block;
     margin-left: auto;
@@ -30,6 +40,11 @@ input{
     background-color: #326273;
     color: #EEEEEE;
     border-radius: 0.5rem;
+}
+
+
+.tableDiv{
+    display: none;
 }
 
 table{
