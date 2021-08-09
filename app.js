@@ -17,15 +17,13 @@ function clickSubmit(){
     console.log(diff);
 
     if (diff == 0) {
-        outp.style.display="block";
+        
         outp.innerHTML="No need Brother";
-        var table = document.querySelector(".tableDiv");
-        table.style.display = "none";
+       
       }
-      if (diff > 0) {
-        var table = document.querySelector(".tableDiv");
-        table.style.display = "block";
-        outp.style.display="none";
+      
+    if (diff > 0) {
+        
         if (diff >= 2000) {
           var count = Math.floor(diff / 2000);
           diff = diff - 2000 * count;
@@ -71,11 +69,10 @@ function clickSubmit(){
       }
     
       if (diff < 0) {
-        console.log(diff);
-        outp.style.display="block";
+        
+        
         outp.innerHTML="Pay the Full Amount first please.";
-        var table = document.querySelector(".tableDiv");
-        table.style.display = "none";
+        
       }
     
 
