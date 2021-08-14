@@ -1,5 +1,5 @@
 *{
-    background-color: #EEEEEE;
+    
 }
 h1{
     text-align: center;
@@ -80,4 +80,39 @@ th{
     margin-top: 2rem;
     color:#326273;
     font-size: 2rem;
+}
+
+
+.footer{
+    
+    background-color: #326273;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+    bottom: 0;
+    justify-content: center;
+
+}
+
+.footer li{
+    margin: auto 2rem 0 2rem;
+    padding: 0  2rem;
+    font-size: 2rem;
+    
+}
+
+.footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+i{
+    color: white;
 }
