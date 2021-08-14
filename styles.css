@@ -3,11 +3,17 @@
 }
 h1{
     text-align: center;
-    margin: auto;
+    margin: 1rem;
     color: #326273;
     font-size: 3rem;
 }
 
+p{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    color: #326273;
+}
 
 .billDiv{
     display: block;
