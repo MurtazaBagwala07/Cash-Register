@@ -9,8 +9,9 @@ function clickNext(){
     var tDisp = document.querySelector(".tableDiv");
         tDisp.style.display="none";
     outp.innerHTML=" ";
+    
     var resetValues = document.querySelectorAll(".reset");
-    console.log(resetValues)
+    // console.log(resetValues)
     for(let i=0;i<resetValues.length;i++){
       resetValues[i].innerHTML="0"
     }
@@ -22,6 +23,7 @@ function clickNext(){
 function clickSubmit(){
     var billAmt=clickNext();
     var cash=cA.value;
+    
     
 
     var diff= cash-billAmt;
