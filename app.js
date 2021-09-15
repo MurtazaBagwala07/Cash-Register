@@ -1,9 +1,15 @@
 var bA=document.querySelector("#billAmount");
 var cA=document.querySelector("#cashAmount");
-var outp=document.querySelector(".output")
+var outp=document.querySelector(".output");
+var errorDiv = document.querySelector(".error")
 
 function clickNext(){
     var bill=bA.value;
+    if(bill<=0){
+      errorDiv.style.display="block";
+    }
+    else{
+      errorDiv.style.display="none";
     var cDisp = document.querySelector(".cashDiv");
     cDisp.style.display="block";
     var tDisp = document.querySelector(".tableDiv");
@@ -18,14 +24,18 @@ function clickNext(){
     
     
     return bill;
+  }
 }
 
 function clickSubmit(){
     var billAmt=clickNext();
     var cash=cA.value;
     
-    
-
+    if(cash<=0){
+      errorDiv.style.display="block";
+    }
+    else{
+      errorDiv.style.display="none";
     var diff= cash-billAmt;
     console.log(diff);
 
@@ -91,7 +101,7 @@ function clickSubmit(){
         outp.innerHTML="Pay the Full Amount first please.";
         
       }
-    
+    }
 
 }
 

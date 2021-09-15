@@ -116,3 +116,10 @@ th{
 i{
     color: white;
 }
+
+.error{
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    display: none;
+}
